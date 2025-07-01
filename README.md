@@ -16,9 +16,13 @@ git clone https://github.com/sullo/nikto
 cd nikto/program
 # Run using the shebang interpreter
 ./nikto.pl -h http://www.example.com
-# Run using perl (if you forget to chmod)
+# Run using perl (if you hate chmod)
 perl nikto.pl -h http://www.example.com
 ~~~
+
+Run as a Docker container from ghcr.io:
+
+`docker pull ghcr.io/sullo/nikto:latest`
 
 Run as a Docker container:
 
